@@ -28,5 +28,14 @@ function displayStory(genre) {
   }
 }
 
-scaryStoryBtn.addEventListener("click", displayStory);
+scaryStoryBtn.addEventListener('click', function() {
+  displayStory('scary');
+});
 
+funnyStoryBtn.addEventListener('click', function() {
+  displayStory('funny');
+});
+
+adventureStoryBtn.addEventListener('click', function() {
+  displayStory('adventure');
+});
